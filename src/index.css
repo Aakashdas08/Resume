@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background .1s, color .05s;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 32px;
+	height: 32px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+}
+
+::selection {
+  color: var(--secondary-color);
+  background: var(--primary-color)
+}
+
+main {
+  max-width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1rem 1.6rem;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.highlight {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding-left: 4px;
+  transition-duration: inherit;
+}
+
+.highlight::selection {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.skill-item {
+  border: 1px solid var(--primary-color);
+}
+
+.job-role {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+.title-primary {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.center {
+  text-align: center;
+}
+
+.icon {
+  margin: 0px 4px;
+  font-size: .7rem;
+}
+
+.contact-info > * {
+  font-size: .85rem;
+  padding: 0 .4rem;
+  font-weight: 500;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.email {
+  color: inherit;
+  text-decoration-color: transparent;
+}
+.email:hover {
+  text-decoration-color: inherit;
+}
+
+.self-info {
+  margin: .8rem 0 0rem;
+  font-size: .9rem;
+}
+
+.primary-heading {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.py-2 {
+  padding: 2px 0;
+}
+
+.px-4 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.px-6 {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.rounded {
+  border-radius: 100px;
+}
+
+.m-2 {
+  margin: 2px;
+}
+
+.m-4 {
+  margin: 4px;
+}
+
+.my-2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.my-4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.my-6 {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.mx-2 {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.mx-4 {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.mx-6 {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.mx-8 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.fs-8 {
+  font-size: 8px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-16 {
+  font-size: 1rem;
+}
+
+.section {
+  margin: .6rem 0;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.border-b-2 {
+  border-bottom: 2px inset var(--primary-color);
+}
+
+.experience-info {
+  margin: .4rem 0;
+}
+
+.company-title {
+  font-size: 1.2rem;
+  margin-bottom: .2rem;
+}
+
+.experience-description-list {
+  margin-left: 1.5rem;
+  font-size: .85rem;
+}
+
+.skills-list {
+  margin: .4rem 0;
+  margin-left: 1.5rem;
+  font-size: .85rem;
+}
+
+.theme-box {
+  width: 40px;
+  height: 40px;
+  right: 1.6rem;
+  bottom: 1.6rem;
+  position: fixed;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0 0 2px 2px var(--primary-color);
+}
+.theme-box #theme-box-input {
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+.resume-download {
+  position: fixed;
+  bottom: 5rem;
+  right: 1.6rem;
+  width: 2.5rem;
+  display: flex;
+  height: 2.5rem;
+  padding: .8rem;
+  font-size: 1.25rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0 0 2px 2px var(--primary-color);
+}
+
+@media screen and (max-width: 600px) {
+    main {
+      padding: .5rem;
+    }
+
+    .contact-info {
+      flex-direction: column;
+    }
+
+    .company-joining-info {
+      display: block;
+      margin: -5px 0 5px 20px;
+    }
+
+    .self-info {
+      font-size: .8rem;
+    }
+}
