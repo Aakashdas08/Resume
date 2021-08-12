@@ -44,7 +44,7 @@ export const RESUME_DATA = {
         'Additional Skills': [ 'Database Design','Excel','Pivot','Vlookup' ],
         'Databases': [ 'MySQL', 'SQL' ],
         'OS': [  'Windows', 'Linux' ],
-        'Tools': ['eektable', 'Github', 'Visual Code Studio'],
+        'Tools': ['Github', 'Visual Code Studio'],
         //'Other': [ 'HTML5', 'CSS3', 'SCSS', 'Socket.io', 'REST API', 'Redux-Toolkit', 'Responsive Web Design', 'Progressive Web App (PWA)' ]
     },
     educationalInfo: [
