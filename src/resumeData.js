@@ -79,7 +79,7 @@ export const RESUME_DATA = {
     ],
     honorsAndAchievements: [
         'Received 2 times Champion Performer.',
-        'Compelted Certification in Manual Testing '
+        'Completed Certification in Manual Testing '
         
 
     ],
