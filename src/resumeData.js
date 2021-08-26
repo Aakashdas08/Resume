@@ -12,7 +12,7 @@ export const RESUME_DATA = {
     },
     workExperience: [
         {
-            companyName: "Ziff Davis Performance Marketing,(Database Executive) ",
+            companyName: "Ziff Davis Performance Marketing(Database Executive) ",
             startDate: "May 2020",
             endDate: "Present",
             location: "Pune",
@@ -28,7 +28,7 @@ export const RESUME_DATA = {
             ] 
         },
         {
-            companyName: "Ziff Davis,(Research Analyst)",
+            companyName: "Ziff Davis(Research Analyst)",
             startDate: "May 2017",
             endDate: "April 2020",
             location: "Pune",
