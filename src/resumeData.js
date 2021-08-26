@@ -65,7 +65,7 @@ export const RESUME_DATA = {
         {
             degree: 'HSC',
             duration: 'Pass-out Year : Apr 2014',
-            college: 'Gurunanal Jr. College',
+            college: 'Gurunanak Jr. College',
             university: 'Maharashtra State Board',
             location: 'Pune'
         },
